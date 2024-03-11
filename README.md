@@ -1,13 +1,27 @@
-# About Project
-Data Analysis of Electronics Store Sales using Pandas and Matplotlib in Jupyter Notebook.
 
-# About Data
-Data collected consists of monthly sales data of the electronics store as .csv files in the Sales_Data directory.
+## Diabetes Predictor
+> Predict Diabetes using Machine Learning.
 
-# Analysis
-This project uses Pandas and Matplotlib to answer basic sales related questions as follows:
-  - What was the best month for sales and how much was earned?
-  - Which city had the highest sales?
-  - Which product was sold the most?
-  - Which was the most expensive product sold?
-  - And which city had the most number of buyers for the most expensive product?
+In this project, our objective is to predict whether the patient has diabetes or not based on various features like *Glucose level, Insulin, Age, BMI*. We will perform all the steps from *Data gathering to Model deployment.* During Model evaluation, we compare various machine learning algorithms on the basis of accuracy_score metric and find the best one. Then we create a web app using Flask which is a python micro framework.
+
+
+> Read more about it in my [Blogpost](https://medium.com/@adityamankar09/building-a-diabetes-predictor-4702b99bc7e4).
+
+# **Screenshot**
+
+![](screenshot.jpg)
+
+# Installation
+
+- Clone this repository and unzip it.
+
+- After downloading, `cd` into the `flask` directory.
+
+- Begin a new virtual environment with Python 3 and activate it.
+
+- Install the required packages using 
+   `pip install -r requirements.txt`
+
+- Execute the command:
+   `python app.py`
+
